@@ -1,0 +1,102 @@
+/*codigo de css estilos y atributo*/
+body {
+    font-family: sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.controls, .results {
+  flex: 1;
+  padding: 10%;
+}
+
+
+
+form p:nth-of-type(1) {
+  margin-top: 0;
+}
+
+h1 {
+  text-align: left;
+  font-size: 18px !important;
+  color: #fff;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+article p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+article p:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 2;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+article {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+}
+
+img {
+  float: right;
+  margin-left: 20px;
+  max-width: 200px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+span {
+  background-color: #ccc;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+.cont{
+  padding-top: 3%;
+  margin: 0 !important;
+  background: black;
+  padding-left:5%;
+  padding-bottom: 2%; 
+  display: block;
+  margin: 10px auto;
+}
+
+label{
+  color: red;
+  font-weight: bold;
+  font-family: arial;
+  font-display:block;
+  font-size: 20px;
+}
+
+.iframe{
+  width: 100px;
+  height: 100px;
+}
